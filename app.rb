@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/favorite-song' do
-    resp.write "My favorite song is "
+    resp.write "My favorite song is ..."
   end
 
 end
