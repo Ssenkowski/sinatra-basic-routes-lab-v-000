@@ -17,6 +17,6 @@ class App < Sinatra::Base
 
   get '/favorite-song' do
     @favorite_song = Favorite_song.all
-    erb :'name/index'
+    erb :'favorite-song/index'
   end
 end
