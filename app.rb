@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
-    resp.write "My hometown is \_\_"
+    resp.write "My hometown is Brunswick, Ohio"
   end
 
   get '/favorite-song' do
