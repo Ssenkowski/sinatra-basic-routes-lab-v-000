@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
 
   get '/name' do
-    resp.write "My name is \_\_"
+    resp.write "My name is Steven Senkowski"
   end
 
   get '/hometown' do
