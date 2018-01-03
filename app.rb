@@ -6,8 +6,6 @@ class App < Sinatra::Base
   end
 
   get '/name' do
-    @name = Name.all
-    erb :'name/index'
     resp.write "My name is \_\_"
   end
 
