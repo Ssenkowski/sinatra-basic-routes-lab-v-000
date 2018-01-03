@@ -1,13 +1,12 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
+
   get '/name' do
     resp.write "My name is \_\_"
   end
 
   get '/hometown' do
-    @hometown = Hometown.all
-    erb :'hometown/index'
     resp.write "My hometown is \_\_"
   end
 
