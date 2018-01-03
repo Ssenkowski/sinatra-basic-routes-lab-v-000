@@ -14,4 +14,5 @@ elsif  get '/hometown' do
 else  get '/favorite-song' do
     resp.write "My favorite song is \_\_"
   end
+  resp.finish
 end
