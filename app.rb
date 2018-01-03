@@ -1,10 +1,6 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/' do
-    "Hello, World!"
-  end
-
   get '/name' do
     resp.write "My name is \_\_"
   end
