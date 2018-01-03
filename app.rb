@@ -16,7 +16,7 @@ class App < Sinatra::Base
   end
 
   get '/favorite-song' do
-    @name = Name.all
+    @favorite_song = Favorite_song.all
     erb :'name/index'
   end
 end
