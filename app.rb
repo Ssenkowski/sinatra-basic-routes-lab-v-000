@@ -20,6 +20,6 @@ class App < Sinatra::Base
   get '/favorite-song' do
     @favorite_song = Favorite_song.all
     erb :'favorite-song/index'
-    resp.write "My favorite-song is \_\_"
+    resp.write "My favorite song is \_\_"
   end
 end
